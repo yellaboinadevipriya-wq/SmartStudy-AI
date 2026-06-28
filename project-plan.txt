@@ -1,0 +1,13 @@
+SmartStudy AI
+
+Completed Features:
+1. Add Task
+2. Add Deadline
+3. Mark as Done
+4. Delete Task
+
+Upcoming Features:
+1. AI Task Prioritization
+2. AI Study Planner
+3. Progress Tracker
+4. Gemini AI Assistant

@@ -1,0 +1,193 @@
+/* ---------- BODY ---------- */
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f6f9;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+}
+
+/* ---------- HEADING ---------- */
+
+h1 {
+    color: #2563eb;
+}
+
+h2 {
+    color: #333;
+}
+
+/* ---------- INPUTS ---------- */
+
+input,
+select,
+button {
+    padding: 10px;
+    margin: 8px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+}
+
+/* ---------- BUTTON ---------- */
+
+button {
+    background: #2563eb;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #1d4ed8;
+}
+
+/* ---------- SEARCH ---------- */
+
+#searchTask {
+    width: 70%;
+}
+
+/* ---------- DASHBOARD ---------- */
+
+.dashboard {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin: 20px 0;
+}
+
+.card {
+    width: 170px;
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 3px 8px rgba(0,0,0,.15);
+}
+
+.card h3 {
+    margin-bottom: 10px;
+}
+
+.card p {
+    font-size: 22px;
+    color: #2563eb;
+    font-weight: bold;
+}
+
+/* ---------- TASK LIST ---------- */
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    background: white;
+    color: black;
+    width: 85%;
+    margin: 12px auto;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0,0,0,.15);
+}
+
+/* ---------- TASK BUTTONS ---------- */
+
+li button {
+    margin-left: 10px;
+}
+
+/* ---------- COMPLETED TASK ---------- */
+
+.completed {
+    text-decoration: line-through;
+    opacity: 0.7;
+}
+
+/* ---------- STUDY PLAN ---------- */
+
+#studyPlan {
+    width: 85%;
+    margin: 20px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 3px 8px rgba(0,0,0,.15);
+    text-align: left;
+}
+
+/* ---------- QUOTE ---------- */
+
+#quoteText {
+    font-size: 18px;
+    color: green;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+/* ---------- DARK MODE ---------- */
+
+.dark-mode {
+    background: #121212;
+    color: white;
+}
+
+.dark-mode h2,
+.dark-mode h1 {
+    color: white;
+}
+
+.dark-mode input,
+.dark-mode select,
+.dark-mode button {
+    background: #333;
+    color: white;
+    border: 1px solid #666;
+}
+
+.dark-mode li {
+    background: #1e1e1e;
+    color: white;
+}
+
+.dark-mode .card {
+    background: #1e1e1e;
+    color: white;
+}
+
+.dark-mode #studyPlan {
+    background: #1e1e1e;
+    color: white;
+}
+
+/* ---------- MOBILE ---------- */
+
+@media (max-width: 768px) {
+
+    .dashboard {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card {
+        width: 80%;
+    }
+
+    input,
+    select,
+    button {
+        width: 90%;
+    }
+
+    li {
+        width: 95%;
+    }
+
+    #studyPlan {
+        width: 95%;
+    }
+}
