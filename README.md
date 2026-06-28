@@ -42,6 +42,10 @@ GitHub Repository
 
 https://github.com/yellaboinadevipriya-wq/SmartStudy-AI
 
+Live Demo
+
+https://yellaboinadevipriya-wq.github.io/SmartStudy-AI/
+
 Author
 
 Devipriya Yellaboina
