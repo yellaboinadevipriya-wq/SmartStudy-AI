@@ -1,31 +1,47 @@
-# SmartStudy AI
+📚 SmartStudy AI
 
-## Project Description
-SmartStudy AI is a student task management system that helps students organize their study schedule. It allows users to add tasks, track progress, generate study plans, search tasks, and export reports.
+Description
 
-## Features
-- Add Tasks
-- Delete Tasks
-- Mark Tasks as Done
-- Progress Tracker
-- Search Tasks
-- Dark Mode
-- Export Tasks
-- Study Plan Generator
-- Daily Motivation Quotes
-- Local Storage Support
+SmartStudy AI is a web-based task management application for students. It helps users organize study tasks, monitor progress, generate study plans, and stay motivated.
 
-## Technologies Used
-- HTML
-- CSS
+Features
+
+- Add study tasks
+- Delete tasks
+- Mark tasks as completed
+- Search tasks
+- Task categories
+- Priority levels
+- Deadline reminders
+- Progress dashboard
+- Dark mode
+- Daily motivational quotes
+- Study plan generator
+- Export tasks as a text file
+- Local Storage (tasks remain after refresh)
+
+Technologies Used
+
+- HTML5
+- CSS3
 - JavaScript
 - Local Storage
+- Git
+- GitHub
 
-## Future Scope
-- AI Study Assistant
-- Email Reminders
-- Cloud Database
-- User Login
+Screenshots
 
-## Developed By
+(Add screenshots of your project here.)
+
+Installation
+
+1. Clone the repository.
+2. Open index.html in your browser.
+
+GitHub Repository
+
+https://github.com/yellaboinadevipriya-wq/SmartStudy-AI
+
+Author
+
 Devipriya Yellaboina
